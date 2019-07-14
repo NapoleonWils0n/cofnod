@@ -412,9 +412,19 @@ fi
 
 Then we need to add the path to the python scripts as well  
 
+* For Python 3.6 we need to add this code to our ~/.bash_profile
+
 ```
 if [ -d "$HOME/Library/Python/3.6/bin" ] ; then
         PATH="$HOME/Library/Python/3.6/bin:$PATH"
+fi
+```
+
+* For Python 3.7 we need to add this code to our ~/.bash_profile
+
+```
+if [ -d "$HOME/Library/Python/3.7/bin" ] ; then
+        PATH="$HOME/Library/Python/3.7/bin:$PATH"
 fi
 ```
 
